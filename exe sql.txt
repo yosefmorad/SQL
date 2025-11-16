@@ -1,0 +1,35 @@
+1. SELECT עיר,חברה FROM cell_towers;
+SELECT סוג אתר,כתובת האתר FROM cell_towers;
+SELECT DISTINCT חברה FROM cell_towers; 3
+SELECT DISTINCT עיר FROM cell_towers; 705
+SELECT DISTINCT סוג אתר FROM cell_towers;
+SELECT טכנולוגיית שידור FROM cell_towers;
+SELECT היתר קרינה FROM cell_towers;
+SELECT רשות מקומית FROM cell_towers;
+SELECT חברה,ID FROM cell_towers;
+10.SELECT עיר,עוצמה מרבית תיאורטית בµW לסמר FROM cell_towers WHERE 1;
+11.SELECT עיר,תוצאה מירבית ב% ביחס לסף הבריאות FROM cell_towers WHERE 1;
+12.SELECT * FROM cell_towers;
+13.SELECT כתובת האתר,סוג אתר,ID FROM cell_towers WHERE 1;
+14.SELECT חברה,תאריך היתר הפעלה FROM cell_towers WHERE 1;
+15.SELECT חברה,בדיקה תקופתית אחרונה FROM cell_towers WHERE 1;
+16.SELECT עיר,רשות מקומית FROM cell_towers WHERE 1;
+17.SELECT טכנולוגיית שידור,סוג אתר FROM cell_towers WHERE 1;
+18.SELECT MAX(עוצמה מרבית תיאורטית בµW לסמר) FROM cell_towers;
+19.SELECT תוצאה מירבית ב% ביחס לסף הבריאות FROM cell_towers;
+20.
+
+
+part 2 
+
+SELECT * FROM cell_towers WHERE עיר LIKE 'תל אביב';
+SELECT * FROM cell_towers WHERE חברה LIKE 'פלאפון';
+SELECT * FROM cell_towers WHERE סוג אתר LIKE 'תורן קרקעי';
+SELECT * FROM cell_towers WHERE היתר קרינה = 'יש היתר';
+SELECT * FROM cell_towers WHERE היתר קרינה = 'אין היתר';
+SELECT * FROM cell_towers WHERE טכנולוגיית שידור LIKE '%5%';
+SELECT * FROM cell_towers WHERE עיר LIKE 'תל%';
+SELECT * FROM cell_towers WHERE עוצמה מרבית תיאורטית בµW לסמר > 50;
+SELECT * FROM cell_towers WHERE עוצמה מרבית תיאורטית בµW לסמר < 5;
+SELECT * FROM cell_towers WHERE תוצאה מירבית ב% ביחס לסף הבריאות > 10;
+SELECT * FROM cell_towers WHERE תוצאה מירבית ב% ביחס לסף הבריאות = 0;.

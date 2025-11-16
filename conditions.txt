@@ -1,0 +1,10 @@
+1. SELECT * from customers WHERE country = 'USA'
+
+SELECT * from customers WHERE country  in ('France', 'Germany')
+
+SELECT * from customers WHERE country  ='USA' and state = 'CA'
+
+SELECT * FROM  customers WHERE customerName like 'S%' or customerName like 'T%'
+
+
+2.  
