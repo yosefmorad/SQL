@@ -1,0 +1,13 @@
+1. select * from customers
+2. select firstName ,lastName from employss
+3.select firstName ,employeeNumber ,jobTitle from employees
+4.select productName  , productCode  from products
+5.select officeCode from offices
+6. select * from orders
+7. select coustomerNuber from payments
+8. select orderNumber  ,ordeDate from orders
+9.select * from orderdetails
+10.select checkNumber ,amount from payments
+11. 
+12. select * from product
+13. select 
